@@ -1,0 +1,224 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+ background-color:rgba(121, 210, 166 , 0.3) ;
+ 
+ 
+margin-top:10px; 
+
+}
+
+.maine {
+  padding: 100px 80px;
+  background-image: url("ertt.png");
+background-size: cover;
+margin:50px;
+height :300px;
+float:left;
+width : 400px;
+
+}
+.copy-container {
+float:left;
+}
+.copy-container h1 {
+
+  
+margin:50px;
+  font-size: 60px;
+color : #FFFFFF;
+margin-bottom: 0px; 
+margin-top : 150px;
+-webkit-text-stroke: 2px black;
+
+}
+
+.copy-container h2 {
+  font-size: 60px;
+color : #FFFFFF;
+
+font-style : italic;
+margin-left : 50px;
+-webkit-text-stroke: 2px black;
+}
+
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+ 
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  margin:5px;
+  padding: 33px 20px;
+float : right;
+line-height :15px;
+display: block;
+cursor : pointer;
+background-color:rgba(121, 210, 166 , 0.4) ;
+}
+.trendings {
+float:left;
+}
+
+.trendings h1 {
+font-size: 30px;
+
+margin-left : 10px;
+padding-top:10px;
+padding-right:10px;
+
+}
+.wallpapers {
+ float:left;
+ 
+
+}
+.wallpapers h1 {
+font-size: 30px;
+
+margin-left : 10px;
+padding-top:10px;
+padding-right:10px;
+
+}
+.holi {
+margin-right :10px;
+float : left;
+height : 300px;}
+.b
+{margin-left:10px;}
+
+.holi p {
+ font-size: 24px;
+  float:center;
+color : #FFFFFF;
+text-align:center;
+margin-left : 10px;
+margin-right: 10px;
+background-color:rgba(121, 210, 166 , 0.95);
+
+}
+img {
+width:250px;
+height:200px;
+}
+.contents {
+ background-color:rgba(121, 210, 166 , 0.6) ;
+ }
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.categories
+{
+float : left;
+margin-left:10px;
+}
+.categories h1 {
+font-size: 30px;
+
+margin-left : 10px;
+padding-top:10px;
+padding-right:10px;
+}
+
+.button:hover {
+ 
+  background-color: rgba(121, 210, 166 , 0.95) ;
+  
+}
+ 
+.footer {
+background-color: #26d0c9;
+margin-top: 10px;
+  color: #fff;
+ }
+.hell {
+float : right;
+font-size: 15px;
+  display : inblock;
+color : #FFFFFF;
+text-align:center;
+margin-left : 10px;
+margin-right: 10px;
+}
+.lgo {
+height:200px;
+width:250px;
+float : left;
+margin-left:20px;
+margin-top:10px;
+display : inblock;
+}
+.lugo {
+height:70px;
+width:100px;
+float : left;
+margin-left:10px;
+margin-top:10px;
+display : inblock;
+}
+.tr {
+font-size: 60px;
+color : #FFFFFF;
+float :left;
+font-style : italic;
+margin-top : 50px;
+margin-left : 10px;
+-webkit-text-stroke: 2px black;
+}
+
+.clear {
+clear : both;
+}
+
+input[type=text]  {
+
+  width : 300px;
+  
+margin-left: 150px;
+padding: 5px;
+ font-size: 18px;
+ border : 1px solid #dee7ec;
+}
+.sb {
+position:relative;
+left:0px;
+top:9px;
+height:30px;
+width:25px;
+}
+.sch
+{
+position:absolute;}
+
+
+
+
+
+
+
+
