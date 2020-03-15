@@ -1,0 +1,46 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+  
+
+.maine {
+  
+height :100px;
+width : 180px;
+}
+.copy-container h1 {
+clear : both ;
+margin-top :10px;
+font-size: 30px;}
+
+.copy-container h2 {
+clear : both ;
+margin-top :10px;
+font-size: 30px;}
+
+
+
+}
+
+/* For Smartphones */
+@media all and (max-width: 670px) {
+ 
+ .maine {
+  
+height :40px;
+width : 40px;
+} 
+
+.copy-container h1 {
+
+clear : both ;
+margin-top :10px;
+font-size: 30px;
+}
+
+.copy-container h2 {
+clear : both ;
+margin-top :10px;
+font-size: 30px;}
+
+ 
+}
