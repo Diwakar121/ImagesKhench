@@ -20,12 +20,14 @@
      <li>Log in</li>
 </ul>
 </div>
+
+<img class="menu-icon" src="mnu.png">
 <div class="clear" ></div>
 </div>
 
 <div class="main">
     
-    <div class="maine">
+    <div id="er" class="maine">
     
         
        
@@ -37,13 +39,54 @@
    <h2>Let's capture the image</h2>
 <div class="sch"  >
 <input  type="text" placeholder="Search..">
-<img class="sb" src="sb.png">
+<img class="sb" src="sb.png" align="middle">
 </div>
 
 </div>
 
 <div class="clear" ></div>
 </div>
+
+
+<script >
+
+
+var index = 1;
+setInterval (function(){
+  if (index === 4) {
+    index = 0;
+  }
+ 
+switch (index)
+{case 0:
+  document.getElementById("er").style.backgroundImage= "url('ig1.jpg')"; 
+  index++;
+  break;
+
+case 1:
+document.getElementById("er").style.backgroundImage= "url('ig2.jpg')"; 
+  index++;
+  break;
+
+case 2:
+  document.getElementById("er").style.backgroundImage= "url('ig3.jpg')"; 
+  index++;
+  break;
+
+case 3:
+  document.getElementById("er").style.backgroundImage= "url('ig4.jpg')"; 
+  index++;
+  break;
+}
+
+} , 4000);
+
+
+
+
+</script>
+
+
 <div class ="contents">
 <div class = "trendings ">
   <h1> TRENDINGS...</h1> 
@@ -150,5 +193,6 @@
 <h1 class="tr">Let's Capture The Images</h1>
 <div class="clear" ></div>
 </div>
+
 </body>
 </html>
