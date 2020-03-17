@@ -25,9 +25,9 @@ font-size: 30px;}
 @media all and (max-width: 670px) {
  
  .maine {
-  
+margin : 20px 30px ;  
 height :40px;
-width : 40px;
+width : 50px;;
 } 
 
 .copy-container h1 {
@@ -40,7 +40,52 @@ font-size: 30px;
 .copy-container h2 {
 clear : both ;
 margin-top :10px;
-font-size: 30px;}
+font-size: 25px;
+margin-right:10px}
 
+.header-list {
+display:none;
  
+}
+
+.menu-icon 
+{
+display: block;
+}
+.lugo {
+height:20px;
+width:30px;
+margin:5px;
+float:left;
+}
+
+.header-logo {
+  float: left;
+  font-size: 18px;
+  padding: 5px;
+margin-left:20px;
+text-allign:cenetr;
+       width:55%;     
+}
+
+input[type=text]  {
+
+  width :200px;
+  text-allign:cenetr;
+margin-left: 10px;
+padding: 5px;
+height:23px;
+ font-size: 18px;
+ border : 1px solid #dee7ec;
+}
+.sch {
+float:left;
+
+}
+.holi
+{
+margin-left:10px;
+
+}
+
 }
